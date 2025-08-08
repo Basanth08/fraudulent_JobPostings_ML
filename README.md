@@ -23,6 +23,7 @@ I built a sophisticated **text classification system** that leverages **Support 
 - **📊 High-Performance Classification**: I achieved **F1 score > 0.85** for fraudulent class detection using SVM with multiple kernel support
 - **⚡ Production-Ready Architecture**: I designed a modular, scalable system with proper train/test splits and evaluation frameworks
 - **🎯 Imbalanced Data Handling**: I implemented stratified sampling and F1 scoring to handle real-world class imbalance challenges
+- **📈 Large-Scale Processing**: I processed **8,941 job postings** with comprehensive text analysis
 
 ## 🛠️ Tech Stack & Architecture
 
@@ -51,6 +52,7 @@ Text Input → TF-IDF Vectorization → Feature Engineering → SVM Classificati
 - **Cross-Validation**: 5-fold stratified validation ensuring model robustness
 - **Runtime**: Optimized for sub-minute processing on standard hardware
 - **Scalability**: Handles 10,000+ job postings efficiently
+- **Dataset Size**: Processed 8,941 job postings with comprehensive analysis
 
 ### **Technical Achievements I Delivered**
 - **Feature Engineering**: I combined 3 text fields (description, title, location) for enhanced detection
@@ -71,6 +73,7 @@ Text Input → TF-IDF Vectorization → Feature Engineering → SVM Classificati
 - **Feature Engineering**: Intelligent combination of multiple text fields for enhanced detection
 - **Class Imbalance**: Handling real-world data with skewed fraudulent/legitimate ratios
 - **Model Optimization**: Automated hyperparameter tuning for maximum performance
+- **Large Dataset Processing**: Efficient handling of 8,941 job postings with complex text data
 
 ## 📁 Project Structure
 
@@ -80,15 +83,32 @@ fraudulent_JobPostings_ML/
 │   ├── project.py              # Main SVM classifier implementation
 │   ├── test.py                 # Testing and evaluation framework
 │   └── project_hint.py         # Reference implementation (commented)
-├── 📊 Results & Documentation
+├── 📊 Data & Results
+│   ├── job_train.csv           # Dataset with 8,941 job postings (16MB)
 │   ├── Project_Output.png      # Performance visualization
-│   ├── Other_Classifiers_Outputs.docx  # Comparative analysis
-│   └── DSCI-633 Basanth Varaganti.pptx # Project presentation
+│   └── Other_Classifiers_Outputs.docx  # Comparative analysis
 ├── 📋 Documentation
-│   └── README.md               # This comprehensive guide
+│   ├── README.md               # This comprehensive guide
+│   └── DSCI-633 Basanth Varaganti.pptx # Project presentation
 └── 🗂️ Supporting Files
-    └── __pycache__/            # Python cache files
+    ├── __pycache__/            # Python cache files
+    └── .DS_Store               # System files
 ```
+
+## 📊 Dataset Overview
+
+### **Job Training Dataset (job_train.csv)**
+- **Size**: 8,941 job postings (16MB)
+- **Features**: title, location, description, requirements, telecommuting, has_company_logo, has_questions, fraudulent
+- **Target Variable**: fraudulent (0/1 classification)
+- **Text Fields**: Rich text data in description, title, and location columns
+- **Data Quality**: Comprehensive preprocessing with missing value handling
+
+### **Data Processing I Implemented**
+- **Text Preprocessing**: TF-IDF vectorization with stop word removal
+- **Feature Engineering**: Intelligent concatenation of multiple text fields
+- **Missing Value Handling**: Robust preprocessing with empty string replacement
+- **Data Validation**: Comprehensive data quality checks and validation
 
 ## 📱 Demo & Visuals
 
@@ -97,7 +117,7 @@ fraudulent_JobPostings_ML/
 
 ### **Key Features I Demonstrated**
 - **Real-time Processing**: Sub-second fraud detection on new job postings
-- **Scalable Architecture**: Handles large datasets efficiently
+- **Scalable Architecture**: Handles large datasets efficiently (8,941+ records)
 - **User-Friendly Interface**: Simple API for integration with existing platforms
 - **Comprehensive Reporting**: Detailed performance metrics and analysis
 
@@ -155,7 +175,7 @@ python test.py
 - **Performance**: Optimized algorithms with parallel processing support
 
 ### **Performance Benchmarks I Achieved**
-- **Training Time**: < 5 minutes for 10,000+ job postings
+- **Training Time**: < 5 minutes for 8,941 job postings
 - **Prediction Speed**: < 1 second per job posting
 - **Memory Efficiency**: Optimized for production deployment
 - **Accuracy**: F1 score > 0.85 for fraudulent detection
@@ -168,6 +188,7 @@ python test.py
 - **Python Development**: Object-oriented programming, pandas, scikit-learn
 - **Data Engineering**: Feature engineering, data preprocessing, pipeline design
 - **Performance Optimization**: Parallel processing, efficient algorithms, memory management
+- **Large-Scale Data Processing**: Handling 8,941+ records with complex text data
 
 ### **Soft Skills I Showcased**
 - **Problem Solving**: Analytical approach to fraud detection challenges
@@ -180,6 +201,13 @@ python test.py
 - **Scalable Architecture**: Design patterns for production-ready systems
 - **Performance Optimization**: Techniques for efficient ML pipeline development
 - **Business Impact**: Understanding of ML's role in solving business problems
+- **Data Science**: Large-scale data processing and analysis skills
+
+## 📞 Contact & Links
+
+- **GitHub**: [Basanth08/fraudulent_JobPostings_ML](https://github.com/Basanth08/fraudulent_JobPostings_ML)
+- **Email**: bv8946@g.rit.edu
+- **LinkedIn**: [Basanth Varaganti](https://linkedin.com/in/basanth-varaganti)
 
 ---
 
