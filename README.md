@@ -44,12 +44,6 @@ Text Input → TF-IDF Vectorization → Feature Engineering → SVM Classificati
 - **Classifier**: Support Vector Machine with multiple kernel support (linear, RBF, polynomial)
 - **Evaluator**: Comprehensive performance metrics with F1 score focus
 
-### **Key Design Patterns I Implemented**
-- **Object-Oriented Design**: Modular `my_model` class with `fit()` and `predict()` methods
-- **Pipeline Architecture**: Seamless data flow from preprocessing to prediction
-- **Hyperparameter Tuning**: Automated optimization using RandomizedSearchCV
-- **Cross-Validation**: Robust model evaluation with stratified k-fold validation
-
 ## 📊 Project Metrics & Impact
 
 ### **Performance Metrics I Achieved**
@@ -63,12 +57,6 @@ Text Input → TF-IDF Vectorization → Feature Engineering → SVM Classificati
 - **Hyperparameter Optimization**: I automated tuning of C, kernel, and gamma parameters
 - **Class Imbalance Handling**: I implemented stratified sampling and F1 scoring for real-world data
 - **Production Readiness**: I created a modular design with proper error handling and documentation
-
-### **Business Applications I Enabled**
-- **Job Marketplace Integration**: Real-time fraud detection for live job postings
-- **HR Platform Enhancement**: Automated screening for recruitment platforms
-- **Compliance Monitoring**: Regulatory compliance for job posting authenticity
-- **User Experience**: Improved trust and reduced fraudulent interactions
 
 ## 🔧 Technical Highlights
 
@@ -84,11 +72,23 @@ Text Input → TF-IDF Vectorization → Feature Engineering → SVM Classificati
 - **Class Imbalance**: Handling real-world data with skewed fraudulent/legitimate ratios
 - **Model Optimization**: Automated hyperparameter tuning for maximum performance
 
-### **Best Practices I Demonstrated**
-- **Clean Code Architecture**: Well-documented, modular, and maintainable codebase
-- **Performance Optimization**: Parallel processing and efficient data structures
-- **Error Handling**: Robust preprocessing with missing value handling
-- **Testing Framework**: Comprehensive evaluation with proper train/test splits
+## 📁 Project Structure
+
+```
+fraudulent_JobPostings_ML/
+├── 🔧 Core Implementation
+│   ├── project.py              # Main SVM classifier implementation
+│   ├── test.py                 # Testing and evaluation framework
+│   └── project_hint.py         # Reference implementation (commented)
+├── 📊 Results & Documentation
+│   ├── Project_Output.png      # Performance visualization
+│   ├── Other_Classifiers_Outputs.docx  # Comparative analysis
+│   └── DSCI-633 Basanth Varaganti.pptx # Project presentation
+├── 📋 Documentation
+│   └── README.md               # This comprehensive guide
+└── 🗂️ Supporting Files
+    └── __pycache__/            # Python cache files
+```
 
 ## 📱 Demo & Visuals
 
